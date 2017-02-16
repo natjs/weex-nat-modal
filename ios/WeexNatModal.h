@@ -1,5 +1,5 @@
 //
-//  NatWeexModal.h
+//  WeexNatModal.h
 //
 //  Created by huangyake on 17/1/7.
 //  Copyright © 2017 Nat. All rights reserved.
@@ -19,6 +19,6 @@
 
 @end
 
-@interface NatWeexModal : NSObject<NatModalPro>
+@interface WeexNatModal : NSObject<NatModalPro>
 
 @end

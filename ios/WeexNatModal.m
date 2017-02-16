@@ -1,14 +1,14 @@
 //
-//  NatWeexModal.m
+//  WeexNatModal.m
 //
 //  Created by huangyake on 17/1/7.
 //  Copyright © 2017 Nat. All rights reserved.
 //
 
-#import "NatWeexModal.h"
+#import "WeexNatModal.h"
 #import "NatModal.h"
 
-@implementation NatWeexModal
+@implementation WeexNatModal
 WX_EXPORT_METHOD(@selector(alert::))
 WX_EXPORT_METHOD(@selector(confirm::))
 WX_EXPORT_METHOD(@selector(prompt::))
