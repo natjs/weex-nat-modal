@@ -1,17 +1,19 @@
 {
-  "name": "nat-modal",
-  "version": "0.0.0",
-  "description": "Weex Plugin-nat-modal",
+  "name": "weex-nat-modal",
+  "version": "0.0.1",
+  "description": "Nat.js module: Modal (dialog)",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "Nat",
+    "modal",
+    "dialog",
     "Weex",
     "Plugin",
-    "commponent",
     "module",
-    "handle",
-    "weexpack"
+    "handle"
   ],
-  "author": ""
+  "author": "Acathur",
+  "license": "MIT"
 }
