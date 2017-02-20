@@ -26,6 +26,19 @@
 
      <!-- android -->
      <platform name="android">
+        <config-file target="config.xml" parent="/*">
+             <feature name="ModalModule">
+                 <param name="category" value="module" />
+                 <param name="android-package" value="com.nat.weex.ModalModule" />
+                 <param name="api" value="nat/modal" />
+             </feature>
+        </config-file>
+
+        <source-file
+             src="android/ModalModule.java"
+            target-dir="src/com/alibaba/weex/nat/ModalModule.java" />
+
+        <framework src="com.nat:modal:1.0.4" />
      </platform>
      
 </plugin>
