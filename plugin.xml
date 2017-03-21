@@ -2,13 +2,13 @@
 
 <plugin xmlns="http://www.w3.org/ns/widgets"
     id="nat-modal"
-    version="0.1.0">
+    version="0.1.2">
     <name>nat-modal</name>
     <description>Nat.js module for weex: Modal (dialog)</description>
     <license>MIT</license>
     <keywords>weex,plugin,nat,natjs,modal,dialog,alert,confirm,toast</keywords>
-    <repo>https://github.com/Natjs/weex-nat-modal.git</repo>
-    <issue>https://github.com/Natjs/weex-nat-modal/issues</issue>
+    <repo>https://github.com/natjs/weex-nat-modal.git</repo>
+    <issue>https://github.com/natjs/weex-nat-modal/issues</issue>
     
      <!-- ios -->
      <platform name="ios">
