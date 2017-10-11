@@ -56,4 +56,14 @@ public class Modal extends WXModule {
             }
         });
     }
+
+    @JSMethod
+    public void showActionSheet(HashMap<String, Object> hashMap, final JSCallback jsCallback){
+        ModalModule.getInstance().showActionSheet((Activity) mWXSDKInstance.getContext(), hashMap, new ModuleResultListener() {
+            @Override
+            public void onResult(Object o) {
+                jsCallback.invoke(o);
+            }
+        });
+    }
 }
