@@ -1,6 +1,6 @@
 # nat-modal
 
-- [Documentation](http://natjs.com/#/#modal)
+- [Documentation](http://natjs.com/#/reference/modal)
 - [Github](https://github.com/natjs/weex-nat-modal)
 
 ## Installation
@@ -9,16 +9,16 @@ weexpack plugin add nat-modal
 ```
 
 ```
-npm install natjs --save
+npm i natjs
 ```
 
 ## Usage
 
-Use in weex file (.we)
+Use in weex project (`.vue`/`.we`)
 
 ```html
 <script>
-import 'Nat' from 'natjs'
+import Nat from 'natjs'
 
 // alert
 Nat.alert('Hello Nat!')

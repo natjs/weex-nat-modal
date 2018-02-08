@@ -1,7 +1,7 @@
 //
 //  WeexNatModal.h
 //
-//  Created by huangyake on 17/1/7.
+//  Created by Acathur on 17/1/7.
 //  Copyright © 2017 Instapp. All rights reserved.
 //
 
