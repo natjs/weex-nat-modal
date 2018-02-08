@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "WeexNatModal"
-  s.version      = "1.0.0-alpha"
+  s.version      = "1.0.0-alpha.2"
 
   s.summary      = "Nat.js weex plugin: nat-modal"
   s.description  = <<-DESC
@@ -21,4 +21,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.dependency "WeexPluginLoader"
   s.dependency "WeexSDK"
+  s.dependency "NatModal"
 end

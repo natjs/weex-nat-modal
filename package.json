@@ -1,6 +1,6 @@
 {
   "name": "nat-modal",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0-alpha.2",
   "main": "./js/build/main.js",
   "description": "Nat.js module for weex: Modal (dialog)",
   "license": "MIT",
@@ -8,13 +8,13 @@
   "ios": {
     "type": "pod",
     "name": "WeexNatModal",
-    "version": "1.0.0-alpha"
+    "version": "1.0.0-alpha.2"
   },
   "android": {
     "type": "maven",
     "groupId": "com.instapp.nat",
     "name": "weex-plugin-modal",
-    "version": "1.0.0-alpha"
+    "version": "1.0.0-alpha.2"
   },
   "keywords": [
     "weex",
