@@ -6,7 +6,7 @@
 //
 
 #import "WeexNatModal.h"
-#import "NatModal.h"
+#import <NatModal/NatModal.h>
 
 @implementation WeexNatModal
 @synthesize weexInstance;
@@ -21,7 +21,7 @@ WX_EXPORT_METHOD(@selector(toast::))
             if (callback) {
                 callback(error);
             }
-        }else{
+        } else {
             if (callback) {
                 callback(result);
             }
@@ -36,7 +36,7 @@ WX_EXPORT_METHOD(@selector(toast::))
             if (callback) {
                 callback(error);
             }
-        }else{
+        } else {
             if (callback) {
                 callback(result);
             }
@@ -51,7 +51,7 @@ WX_EXPORT_METHOD(@selector(toast::))
             if (callback) {
                 callback(error);
             }
-        }else{
+        } else {
             if (callback) {
                 callback(result);
             }
@@ -68,7 +68,7 @@ WX_EXPORT_METHOD(@selector(toast::))
             if (callback) {
                 callback(error);
             }
-        }else{
+        } else {
             if (callback) {
                 callback(result);
             }
