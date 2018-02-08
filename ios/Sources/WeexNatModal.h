@@ -7,6 +7,8 @@
 
 #import <Foundation/Foundation.h>
 #import <WeexSDK/WeexSDK.h>
+#import <WeexPluginLoader/WeexPluginLoader.h>
+#import <NatModal/NatModal.h>
 
 
 @protocol NatModalPro <WXModuleProtocol>

@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "WeexNatModal"
-  s.version      = "1.0.0-alpha.2"
+  s.version      = "1.0.0"
 
   s.summary      = "Nat.js weex plugin: nat-modal"
   s.description  = <<-DESC

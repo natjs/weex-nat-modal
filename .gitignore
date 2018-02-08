@@ -34,4 +34,7 @@ npm-debug.log
 .idea
 .gradle
 
+android/build
+android/gradle
 playground
+bintray.properties
