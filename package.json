@@ -1,6 +1,6 @@
 {
   "name": "nat-modal",
-  "version": "1.0.0-alpha.3",
+  "version": "1.0.0-alpha.4",
   "main": "./js/build/main.js",
   "description": "Nat.js module for weex: Modal (dialog)",
   "license": "MIT",
@@ -8,7 +8,7 @@
   "ios": {
     "type": "pod",
     "name": "WeexNatModal",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "android": {
     "type": "maven",
@@ -17,6 +17,7 @@
     "version": "1.0.0-alpha.3"
   },
   "keywords": [
+    "nat",
     "weex",
     "hybrid",
     "webcomponent",

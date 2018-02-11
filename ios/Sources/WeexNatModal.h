@@ -7,9 +7,6 @@
 
 #import <Foundation/Foundation.h>
 #import <WeexSDK/WeexSDK.h>
-#import <WeexPluginLoader/WeexPluginLoader.h>
-#import <NatModal/NatModal.h>
-
 
 @protocol NatModalPro <WXModuleProtocol>
 
@@ -17,7 +14,6 @@
 - (void)confirm:(NSDictionary *)params :(WXModuleCallback)callback;
 - (void)prompt:(NSDictionary *)params :(WXModuleCallback)callback;
 - (void)toast:(NSDictionary *)params :(WXModuleCallback)callback;
-
 
 @end
 

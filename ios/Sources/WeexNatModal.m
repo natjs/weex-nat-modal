@@ -6,16 +6,17 @@
 //
 
 #import "WeexNatModal.h"
+#import <WeexPluginLoader/WeexPluginLoader.h>
+#import <NatModal/NatModal.h>
 
 @implementation WeexNatModal
 @synthesize weexInstance;
 
+WX_PlUGIN_EXPORT_MODULE(nat/modal, WeexNatModal)
 WX_EXPORT_METHOD(@selector(alert::))
 WX_EXPORT_METHOD(@selector(confirm::))
 WX_EXPORT_METHOD(@selector(prompt::))
 WX_EXPORT_METHOD(@selector(toast::))
-
-WX_PlUGIN_EXPORT_MODULE(nat/modal, WeexNatModal)
 
 - (void)alert:(NSDictionary *)params :(WXModuleCallback)callback{
     [[NatModal singletonManger] alert:params :^(id error,id result) {
