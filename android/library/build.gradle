@@ -5,13 +5,16 @@ android {
     buildToolsVersion "25.0.2"
 
     defaultConfig {
-        minSdkVersion 14
+        minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.1-alpha"
 
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+            }
+        }
     }
     buildTypes {
         release {
@@ -32,3 +35,5 @@ dependencies {
     provided 'org.weex.plugin:processor:1.0.2'
     testCompile 'junit:junit:4.12'
 }
+
+apply from: 'bintrayUpload.gradle'

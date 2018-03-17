@@ -63,7 +63,6 @@ WX_EXPORT_METHOD(@selector(toast::))
     }];
 }
 
-
 - (void)toast:(NSDictionary *)params :(WXModuleCallback)callback{
     
     [[NatModal singletonManger] toast:params :^(id error,id result) {
@@ -79,6 +78,5 @@ WX_EXPORT_METHOD(@selector(toast::))
 
     }];
 }
-
 
 @end

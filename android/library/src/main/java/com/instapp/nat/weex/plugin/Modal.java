@@ -1,4 +1,4 @@
-package com.instapp.nat.weex.plugin.Modal;
+package com.instapp.nat.weex.plugin;
 
 import com.alibaba.weex.plugin.annotation.WeexModule;
 import com.taobao.weex.annotation.JSMethod;
